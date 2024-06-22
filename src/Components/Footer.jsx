@@ -1,12 +1,35 @@
-import React from 'react'
+import "../Styles/Footer.css"
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer>
-        <p>Powered by</p>
-        <img src="./img/DH.png" alt='DH-logo' />
+    <footer className="footer">
+      <div className="footer-copy-right">
+        <Link to="https://digitalhouse.com">
+          <p>Powered by</p>
+          <img src="../../public/images/DH.png" alt="DH-logo" />
+        </Link>
+      </div>
+      <div className="footer-social">
+        <Link to="https://facebook.com">
+          {" "}
+          <img src="/public/images/ico-facebook.png" alt="" />{" "}
+        </Link>
+        <Link to="https://instagram.com">
+          {" "}
+          <img src="/public/images/ico-instagram.png" alt="" />{" "}
+        </Link>
+        <Link to="https://tiktok.com">
+          {" "}
+          <img src="/public/images/ico-tiktok.png" alt="" />{" "}
+        </Link>
+        <Link to="https://whatsapp.com">
+          {" "}
+          <img src="/public/images/ico-whatsapp.png" alt="" />{" "}
+        </Link>
+      </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
