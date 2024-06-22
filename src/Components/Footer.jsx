@@ -7,25 +7,25 @@ const Footer = () => {
       <div className="footer-copy-right">
         <Link to="https://digitalhouse.com">
           <p>Powered by</p>
-          <img src="../../public/images/DH.png" alt="DH-logo" />
+          <img src="/images/DH.png" alt="DH-logo" />
         </Link>
       </div>
       <div className="footer-social">
         <Link to="https://facebook.com">
           {" "}
-          <img src="/public/images/ico-facebook.png" alt="" />{" "}
+          <img src="/images/ico-facebook.png" alt="" />{" "}
         </Link>
         <Link to="https://instagram.com">
           {" "}
-          <img src="/public/images/ico-instagram.png" alt="" />{" "}
+          <img src="/images/ico-instagram.png" alt="" />{" "}
         </Link>
         <Link to="https://tiktok.com">
           {" "}
-          <img src="/public/images/ico-tiktok.png" alt="" />{" "}
+          <img src="/images/ico-tiktok.png" alt="" />{" "}
         </Link>
         <Link to="https://whatsapp.com">
           {" "}
-          <img src="/public/images/ico-whatsapp.png" alt="" />{" "}
+          <img src="images/ico-whatsapp.png" alt="" />{" "}
         </Link>
       </div>
     </footer>

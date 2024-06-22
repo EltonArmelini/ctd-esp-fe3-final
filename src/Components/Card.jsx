@@ -7,7 +7,7 @@ const Card = ({ data, children }) => {
       <Link to={"/dentist/" + data.id}>
         <img
           className="card-img"
-          src="/public/images/doctor.jpg"
+          src="/images/doctor.jpg"
           alt="profile-pic"
         />
         <div className="card-info">
